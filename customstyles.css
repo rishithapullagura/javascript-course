@@ -1,0 +1,19 @@
+*{
+    margin: 0px auto;
+}
+
+html,
+body{
+    background-color: #f2f2f2;
+    line-height: 24px;
+}
+
+.wrapper{
+    background-color: #fcb;
+    padding: 10px 15px;
+    width: 992px;
+}
+
+.content{
+    color: #2d6;
+}
