@@ -1,0 +1,41 @@
+->what is javascript?
+   -javascript is an client side open source scripting language
+   -used to create more interactivity to the web pages
+
+   ->getting started with js
+   ->Display the data using js
+     1.document.write
+     2.console.log()&console.warn()&console.error()
+     3.alert(),confirm(),prompt()
+   ->Data Types
+     1.primary
+       1.number:0-9;56,-74,58.43
+       2.string:a-z;A-Z;0-9;All Symbols ~`!@#$%^&*()-'...'/"..."/`...`
+       3.boolean:true/false
+     2.non primitive(Abstract)
+         1.Arrays
+         2.Functions
+         3.objects
+
+         ->comment:
+           1.single line comment-//.......
+           2.multi line comment-/*...*/
+
+           ->identifiers:
+             eg.,_num 1
+           ->keywords
+             eg.,if,async,while,try,break,
+
+             ->Declare the variables
+                1.var
+                2.let
+                3.const
+
+                ->statements:
+                  1.decision making
+                  2.loop
+
+                  ->array:
+                  ->Functions
+                  ->DOM
+                  ->Exception Handling
