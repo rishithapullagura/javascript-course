@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="customstyles.css">
+    <style></style>
+
+    <script src="customscripst.js"></script>
+    <script>
+        //code of javascript
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <script>
+        //code of javascript
+        let num1=6;
+        let num2=2;
+
+        let res=0;
+
+
+        //1.Arithemetic operators
+        //1.1 binary operators:+,-,/,*,%
+        res=num1*num2;
+        document.write(`the res=num1(6)*num2(2):${res} <br/>`);
+        //1.2 unary operators:++,--
+        ++num1;
+        document.write(`the value of num1:${num1} <br/>`);
+
+        //2.Assignment operators:+=,-=,*=
+        num1+=46;//num1=(num1+num2)
+        document.write(`the value of num1:${num1} <br/>`);
+
+        let x='4';
+        let y=4.0;
+        let z=4;
+
+        
+        document.write(`the value of x:${x},and its data type:${typeof x} <br/>`);
+        document.write(`the value of x:${y},and its data type:${typeof y} <br/>`);
+        document.write(`the value of x:${z},and its data type:${typeof z} <br/>`);
+
+
+        //3.comparision(Relational) operators:==,!=,===,!==,<,>,<=,>=
+        res=x==y;
+        document.write(`the value of res:${res} <br/>`);
+
+
+        //4.conditional operators:() ? :
+        res=
+        x>=y
+        ?`the value of x is greater than or equal to  the value of y`
+        :`the value of x is not greater than the value of y`;
+        //5.logical operators:&&,||,!
+        res=x>y&&y==z;
+        document.write(`the value of res:${res} <br?>`);
+
+        res=x>y||y==z;
+        document.write(`the value of res:${res} <br?>`);
+
+        res=!(x>y&&y==z);
+        document.write(`the value of res:${res} <br?>`);
+    </script>
+</div>
+
+
+</body>
+</html>
